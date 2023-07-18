@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "Source Han";
     src: url(../fonts/SourceHan.ttf) format("truetype");
 }
@@ -9,7 +9,7 @@
 @font-face{
     font-family: "HarmonyOSSans";
     src: url(../fonts/HarmonyOS_Sans_SC_Light.ttf) format("truetype");
-}
+} */
 
 @keyframes lding {
     0%{
