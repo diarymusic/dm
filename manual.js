@@ -8,7 +8,7 @@ function blur(s){
     }
 }
 window.onload = function(){
-    scrControl(0);
+    scrControl(1);
     // document.getElementsByClassName('placehold').style="height:"currh";";
 blur()
 
@@ -127,7 +127,7 @@ jQuery(document).ready(function($){
             setTimeout(
                 $('.cursorfinish').lbyl({
                 content:"Diarymusic /?",
-                speed:100,
+                speed:20,
                 type:"show",
                 finished:function(){
                     scrControl(1);
