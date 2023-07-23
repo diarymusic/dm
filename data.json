@@ -1,5 +1,12 @@
 [
     {
+        "cover":"http://p2.music.126.net/qvjnX4Y9BXpaPwZkvj2DDg==/109951168753842312.jpg",
+        "title":"Do U Right",
+        "author":"Raistar / Diary Music",
+        "idct":"“耳边的话浮现在我眼前，不死心的追问仍换来相同的答复，最后只能颤抖地说：“你，确定吗？”‘……’”",
+        "link":"https://music.163.com/song?id=2063180061"
+    },
+    {
         "cover":"http://p2.music.126.net/xwmMZ9mFTjDQUgeB6-Zv6w==/109951168733149737.jpg",
         "title":"If We Never",
         "author":"Key / Diary Music",
@@ -38,7 +45,7 @@
         "cover":"http://p1.music.126.net/PT68E8qpzB5PmQjyl4Zp3g==/109951168634553833.jpg",
         "title":"Sunset",
         "author":"PEKIDS / Diary Music / Hilarity Leap Records",
-        "idct":"“夕阳落山了，但朝阳总会升起。”",
+        "idct":"夕阳落山了，但朝阳总会升起。",
         "link":"https://music.163.com/#/album?id=166295185"
     },
     {
@@ -138,12 +145,5 @@
         "author":"Attic / SeynChild",
         "idct":"“比黑暗更深沉的黑暗，辉映着永恒”",
         "link":"https://music.163.com/song?id=2023209998"
-    },
-    {
-        "cover":"",
-        "title":"",
-        "author":"",
-        "idct":"",
-        "link":""
     }
 ]
