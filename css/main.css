@@ -205,9 +205,15 @@ span{
     z-index: 3;
     box-shadow: inset 0px 0px 150px 15px rgba(0, 0, 0, 0.781);
     font-size: 0.8rem;
-    overflow: auto;
-    color: #e8f3ec;
-    text-shadow: rgba(0, 0, 0, 1) 0px 0px 0px 10px;
+    overflow: scroll;
+    color: #fdfffe;
+    text-shadow: rgba(0, 0, 0, 1) 1px 1px 4px;
+}
+.fl::-webkit-scrollbar{
+    visibility: hidden;
+}
+.fl::-webkit-scrollbar-corner{
+    visibility: hidden;
 }
 @keyframes hid {
     from{
@@ -279,10 +285,14 @@ p{
     /* max-width: 70%; */
     z-index: 1;
 }
+.modal{
+    transition: all 0.4s;
+    background-color: rgba(0, 0, 0, 0.301);
+}
 .modal-content{
     border: none;
     z-index: 2;
-    box-shadow: 0px 0px 42px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0px 0px 41px 0px rgba(0, 0, 0, 1);
 }
 .gallery{
     width: calc(100% - 60%);
@@ -314,7 +324,7 @@ a{
     overflow-x: auto;
     display: flex;
     margin: 0.5rem 0.5rem;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 }
 .glry::-webkit-scrollbar{
     display: none;
@@ -364,6 +374,7 @@ body::-webkit-scrollbar{
 .gl{
     display: flex;
     overflow-x: scroll;
+    scroll-behavior: smooth;
 }
 .gl::-webkit-scrollbar{
     display: none;
