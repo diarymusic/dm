@@ -36,6 +36,8 @@
 body{
     font-family: "Source Han";
     background-color: rgb(245,245,245);
+    /* display: flex; */
+    /* justify-items: center; */
 }
 
 blockquote{
@@ -381,6 +383,7 @@ body::-webkit-scrollbar{
     display: none;
 }
 .footer{
+    display: block;
     background-color: black;
     height: 20em;
     color: #e8f3ec;

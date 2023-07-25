@@ -18,6 +18,7 @@ blur()
         //读取成功后执行
         success: function(data){
             // alert(data)
+            
             for (let ix = 0; ix < data.length; ix++) {
                 var c = data[ix].cover
                 var l = data[ix].link
@@ -27,9 +28,38 @@ blur()
                 var el = $('<img src='+'"'+c+'"'+'alt=""'+'data-title='+'"'+ti+'"'+'data-author='+'"'+au+'"'+'data-idct='+'"'+ct+'"'+'data-link='+'"'+l+'"'+'class="gallery"'+'data-bs-toggle="modal"'+'data-bs-target="#modalGallery"'+'>');
             el.appendTo($('.glry'));
             } 
+            let nc = data[0].cover;
+            let nl = data[0].link;
+            let nt = data[0].title;
+            let ni = data[0].idct;
+            let na = data[0].author;
+            //
+            $('.nSongTit').empty().text(nt);
+            $(".nSongLin").attr("href",nl);
+            $('.nSongAuth').empty().text(na);
+            $(".nSongCov").attr("src",nc);
+            $('.nSongInd').empty().text(ni);
+            
         }
     });
 
+    $.ajax({
+        url: "newSong.json",
+        dataType: "json",
+        //读取成功后执行
+        success: function(data){
+            let dt = data[0].date
+            let ncp = data[0].cover;
+            let ntp = data[0].title;
+            let nip = data[0].idct;
+            let nap = data[0].author;
+            $('.nSongPDat').empty().text(dt);
+            $('.nSongPTit').empty().text(ntp);
+            $('.nSongPAuth').empty().text(nap);
+            $(".nSongPCov").attr("src",ncp);
+            $('.nSongPInd').empty().text(nip);
+        }
+    })
 
     $.ajax({
         url: "artworks.json",

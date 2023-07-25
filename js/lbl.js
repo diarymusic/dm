@@ -5,7 +5,7 @@
                     content: "",
                     speed: 10,
                     type: "fade",
-                    fadeSpeed: 500,
+                    fadeSpeed: 550,
                     finished: function() {}
                 }, n),
                 d = e(this),
